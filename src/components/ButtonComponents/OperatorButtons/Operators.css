@@ -1,0 +1,19 @@
+.operators {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-self: end;
+    justify-content: space-evenly;
+    
+    
+}
+
+.opsButton {
+    width: 110px;
+    border-radius: 50%;
+    height: 70px;
+    flex-wrap: wrap;
+    color: white;
+    background-color: teal;
+}
