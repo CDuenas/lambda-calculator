@@ -1,0 +1,10 @@
+.operators {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 18%;
+    justify-self: end;
+    align-self: flex-end;
+    
+    border: solid 2px green;
+}

@@ -1,0 +1,10 @@
+.specials {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-bottom: 5%;
+    justify-content: space-evenly;
+    border: solid 2px blueviolet;
+    margin-top: 0;
+    
+}

@@ -1,0 +1,17 @@
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 20rem;
+    justify-content: space-evenly;
+    border: solid 2px teal;
+    
+
+}
+
+.numbersButton{
+    width: 110px;
+    border-radius: 50%;
+    height: 70px;
+    flex-wrap: wrap;
+}
