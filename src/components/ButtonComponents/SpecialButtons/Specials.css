@@ -1,10 +1,17 @@
 .specials {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     padding-bottom: 5%;
     justify-content: space-evenly;
-    border: solid 2px blueviolet;
-    margin-top: 0;
-    
+    margin-top: 3%;
+}
+
+.specialButton {
+    width: 110px;
+    border-radius: 50%;
+    height: 70px;
+    flex-wrap: wrap;
+    background-color: rgb(7, 7, 182);
+    color: white;
 }

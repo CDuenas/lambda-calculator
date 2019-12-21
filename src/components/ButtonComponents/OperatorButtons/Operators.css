@@ -2,9 +2,18 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 18%;
+    width: 25%;
     justify-self: end;
-    align-self: flex-end;
+    justify-content: space-evenly;
     
-    border: solid 2px green;
+    
+}
+
+.opsButton {
+    width: 110px;
+    border-radius: 50%;
+    height: 70px;
+    flex-wrap: wrap;
+    color: white;
+    background-color: teal;
 }
