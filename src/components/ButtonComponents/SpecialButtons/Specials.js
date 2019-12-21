@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { specials } from ".../data";
+import { specials } from "../../../data";
 
 //import any components needed
 
@@ -10,9 +10,12 @@ const Specials = () => {
   const [specialsState, setSpecialsState] = useState(specials);
   return (
     <div>
+      {props.data.map((place, index) => <button key={index}>{place}</button>)}
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
     </div>
   );
 };
+
+export default Specials;
